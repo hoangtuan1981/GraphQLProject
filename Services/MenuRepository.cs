@@ -36,9 +36,15 @@ namespace GraphQLProject.Services
             return _menus.Where(obj => obj.Id == id).FirstOrDefault();
         }
 
-        public Menu UpdateMenu(Menu menu)
+        public Menu UpdateMenu(int id, Menu menu)
         {
-            return menu;
+            var oldMenu = _menus.Where(obj => obj.Id == id).FirstOrDefault();
+            if (oldMenu != null) {
+                oldMenu.Name = menu.Name;  
+                oldMenu.Description = menu.Description;
+                oldMenu.Price = menu.Price;
+            }
+            return oldMenu;
         }
     }
 }

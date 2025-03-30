@@ -13,7 +13,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddTransient<IMenuRepository, MenuRepository>(); // Register MenuRepository as a singleton service
 builder.Services.AddTransient<MenuType>();
+builder.Services.AddTransient<MenuInputType>();
 builder.Services.AddTransient<MenuQuery>();
+builder.Services.AddTransient<MenuMutation>();
 builder.Services.AddTransient<ISchema, MenuSchema>();
 
 builder.Services.AddGraphQL(obj => obj.AddAutoSchema<ISchema>().AddSystemTextJson());

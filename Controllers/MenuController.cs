@@ -50,7 +50,7 @@ namespace GraphQLProject.Controllers
             }
 
             menu.Id = id;
-            var updatedMenu = _menuService.UpdateMenu(menu);
+            var updatedMenu = _menuService.UpdateMenu(id, menu);
             return Ok(updatedMenu);
         }
 

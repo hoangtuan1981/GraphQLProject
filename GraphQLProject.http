@@ -1,6 +1,0 @@
-@GraphQLProject_HostAddress = http://localhost:5150
-
-GET {{GraphQLProject_HostAddress}}/Menu/
-Accept: application/json
-
-###

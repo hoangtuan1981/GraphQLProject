@@ -11,7 +11,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllers();
-builder.Services.AddTransient<IMenuRepository, MenuRepository>(); // Register MenuRepository as a singleton service
+builder.Services.AddTransient<IMenuRepository, MenuRepository>();
 builder.Services.AddTransient<MenuType>();
 builder.Services.AddTransient<MenuInputType>();
 builder.Services.AddTransient<MenuQuery>();

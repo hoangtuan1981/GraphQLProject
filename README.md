@@ -1,3 +1,11 @@
+So by the end of the course, you'll completely understand:
+How to create a complete real world projects with GraphQL and .Net Core via Entity Framework Code First Approach with all the advanced functions.
+Learn GraphQL Essentials including types , queries , mutations , fragments , aliases , variables
+Write GraphQL Types
+Write GraphQL Queries
+Write GraphQL Mutations
+Create Restaurant Table Booking Project in .Net Core with GraphQL
+
 # Link
  	https://graphql.org/learn
 	1. query

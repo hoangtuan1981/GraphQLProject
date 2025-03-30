@@ -1,5 +1,5 @@
+using GraphQLProject.Interfaces;
 using GraphQLProject.Models;
-using GraphQLProject.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace GraphQLProject.Controllers
@@ -8,9 +8,9 @@ namespace GraphQLProject.Controllers
     [Route("api/[controller]")]
     public class MenuController : ControllerBase
     {
-        private readonly MenuRepository _menuService;
+        private readonly IMenuRepository _menuService;
 
-        public MenuController(MenuRepository menuService)
+        public MenuController(IMenuRepository menuService)
         {
             _menuService = menuService;
         }

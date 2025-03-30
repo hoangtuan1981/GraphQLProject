@@ -1,0 +1,12 @@
+# ...existing code...
+GraphQLClient/obj/
+GraphQLServer/obj/
+GraphQLClient/bin/
+GraphQLServer/bin/
+*.user
+*.suo
+*.log
+*.tmp
+*.vs/
+# ...existing code...
+/GraphQLServer/GraphQLProject.http

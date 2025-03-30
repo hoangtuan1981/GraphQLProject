@@ -5,6 +5,8 @@ VisualStudioVersion = 17.12.35728.132
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphQLProject", "GraphQLServer\GraphQLProject.csproj", "{A59F72DE-1AFC-4E1C-A882-DA2FF9E8AE64}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphQLClient", "GraphQLClient\GraphQLClient.csproj", "{066377CF-4310-468A-AB96-5C041E9546FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A59F72DE-1AFC-4E1C-A882-DA2FF9E8AE64}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A59F72DE-1AFC-4E1C-A882-DA2FF9E8AE64}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A59F72DE-1AFC-4E1C-A882-DA2FF9E8AE64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{066377CF-4310-468A-AB96-5C041E9546FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{066377CF-4310-468A-AB96-5C041E9546FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{066377CF-4310-468A-AB96-5C041E9546FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{066377CF-4310-468A-AB96-5C041E9546FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
